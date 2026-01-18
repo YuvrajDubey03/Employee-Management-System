@@ -14,12 +14,14 @@ const AcceptTask = ({ data }) => {
       <p className='text-sm mt-2 text-gray-200'>{data.taskDescription}</p>
 
       <div className='flex justify-between gap-3 mt-4'>
-        <button className='w-1/2 bg-[#22C55E] hover:bg-[#16A34A] py-2 rounded text-sm font-semibold'>
-          Mark as Read
-        </button>
-        <button className='w-1/2 bg-[#EF4444] hover:bg-[#DC2626] py-2 rounded text-sm font-semibold'>
-          Mark as Failed
-        </button>
+       <button className='w-1/2 bg-[#22C55E] hover:bg-[#16A34A] cursor-pointer py-2 rounded text-sm font-semibold active:scale-95 transition'>
+  Mark as Read
+</button>
+
+<button className='w-1/2 bg-[#EF4444] hover:bg-[#DC2626] cursor-pointer py-2 rounded text-sm font-semibold active:scale-95 transition'>
+  Mark as Failed
+</button>
+
       </div>
     </div>
   )

@@ -16,9 +16,10 @@ const CompleteTask = ({ data }) => {
       <p className='text-sm mt-2 text-gray-200'>{data.taskDescription}</p>
 
       <div className='mt-4'>
-        <button className='w-full bg-[#16A34A] hover:bg-[#15803D] py-2 rounded text-sm font-semibold'>
-          Completed
-        </button>
+        <button className='w-full bg-[#16A34A] hover:bg-[#15803D] cursor-pointer py-2 rounded text-sm font-semibold active:scale-95 transition'>
+  Completed
+</button>
+
       </div>
 
     </div>
