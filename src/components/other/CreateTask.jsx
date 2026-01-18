@@ -55,7 +55,7 @@ const CreateTask = () => {
         onSubmit={submitHandler}
         className="w-full max-w-6xl mx-auto bg-[#0f1416] border border-[#1f2a2e] rounded-xl p-6 flex gap-10"
       >
-        {/* LEFT SIDE */}
+     
         <div className="w-1/2 flex flex-col gap-5">
           <div className="flex flex-col gap-2">
             <h3 className="text-white text-sm font-medium">Task Title</h3>
@@ -101,8 +101,7 @@ const CreateTask = () => {
           </div>
         </div>
 
-        {/* RIGHT SIDE */}
-        <div className="w-1/2 flex flex-col gap-4">
+     <div className="w-1/2 flex flex-col gap-4">
           <h3 className="text-white text-sm font-medium">Description</h3>
 
           <textarea
