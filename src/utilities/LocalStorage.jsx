@@ -379,6 +379,7 @@ let employees = [
 let admin = [
   {
     id: 1,
+        firstName: "Admin",
     email: "admin@company.com",
     password: "123"
   }
